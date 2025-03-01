@@ -45,8 +45,9 @@ namespace courses.Api
             app.UseRouting();
             app.UseAuthorization();
 
-
+             
             app.MapControllers();
+
 
             app.Run();
         }

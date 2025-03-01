@@ -10,7 +10,7 @@ using static Azure.Core.HttpHeader;
 
 namespace Web.Api.Controllers
 {
-    [ApiController]
+    [ApiController] 
     [Route("api/authors")]
     public class AuthorsController : ControllerBase
     {
